@@ -1,0 +1,13 @@
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.exe
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.deps.json
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.runtimeconfig.json
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.runtimeconfig.dev.json
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.dll
+D:\_Programação\C#\interfaceanimal\bin\Debug\netcoreapp3.1\interfaceanimal.pdb
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.csprojAssemblyReference.cache
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.csproj.CoreCompileInputs.cache
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.AssemblyInfoInputs.cache
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.AssemblyInfo.cs
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.dll
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.pdb
+D:\_Programação\C#\interfaceanimal\obj\Debug\netcoreapp3.1\interfaceanimal.genruntimeconfig.cache
