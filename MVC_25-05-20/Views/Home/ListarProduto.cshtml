@@ -1,0 +1,16 @@
+﻿@model List<MVC_25_05_20.Models.produto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindos à minha página</h1>
+</div>
+
+@foreach (MVC_25_05_20.Models.produto prd in Model)
+{
+    <div>
+        @prd.NomeProduto
+    </div>
+}

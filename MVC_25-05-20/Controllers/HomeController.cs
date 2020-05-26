@@ -23,6 +23,34 @@ namespace MVC_25_05_20.Controllers
             return View();
         }
 
+        public IActionResult MinhaPagina()
+        {
+            return View();
+        }
+
+        public IActionResult ListarProduto()
+        {
+            List<produto> listaProduto = new List<produto>();
+            
+            produto smartphone = new produto();
+            smartphone.CodigoProduto = 1;
+            smartphone.NomeProduto = "IPhone";
+            listaProduto.Add(smartphone);
+
+            produto tv = new produto();
+            tv.CodigoProduto = 2;
+            tv.NomeProduto = "LG Bk";
+            listaProduto.Add(tv);
+
+            produto carro = new produto(){
+                CodigoProduto = 3,
+                NomeProduto = "Ferrari"
+            };
+            listaProduto.Add(carro);
+
+            return View(listaProduto);
+        }
+
         public IActionResult Privacy()
         {
             return View();
