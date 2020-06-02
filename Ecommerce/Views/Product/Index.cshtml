@@ -1,0 +1,15 @@
+@model List<Ecommerce.Models.Product>
+
+<h1>Lista de Produtos</h1>
+
+@foreach (var pro in Model)
+{
+<div class="row">
+    <div class="col-6">
+        @pro.Name
+    </div>
+    <div class="col-6">
+        <a href="@Url.Action("Detail", new { id = pro.Id})">Ver detalhes</a>
+    </div>
+</div>
+}
