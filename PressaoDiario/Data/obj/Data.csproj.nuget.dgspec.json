@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_Programação\\C#\\Data\\Data.csproj": {}
+    "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\_Programação\\C#\\Data\\Data.csproj": {
+    "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_Programação\\C#\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\_Programação\\C#\\Data\\Data.csproj",
+        "projectPath": "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "D:\\_Programação\\C#\\Data\\obj\\",
+        "outputPath": "D:\\_Programação\\C#\\PressaoDiario\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",

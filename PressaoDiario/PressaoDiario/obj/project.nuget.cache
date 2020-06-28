@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yx+iPI3dgh+2x5mlksCfnQF0gSMzxwkIEygaExV6bFSM7GpSDzTzMrX/wOnVWMVBjAAZyLGjBtrK3I6bq7DYAg==",
+  "dgSpecHash": "k3MHZh/A30zcxwzbwjC3D9jhs0jzn9lX/Jo3bz7QDQvUnQKTExUmRlJXetPrnKxEz6qvtGg6zHnccBC8rEJtHw==",
   "success": true,
-  "projectFilePath": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario.csproj",
+  "projectFilePath": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario\\PressaoDiario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael\\.nuget\\packages\\litedb\\5.0.8\\litedb.5.0.8.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

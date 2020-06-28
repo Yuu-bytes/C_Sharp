@@ -6124,11 +6124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario.csproj",
+      "projectUniqueName": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario\\PressaoDiario.csproj",
       "projectName": "PressaoDiario",
-      "projectPath": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario.csproj",
+      "projectPath": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario\\PressaoDiario.csproj",
       "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-      "outputPath": "D:\\_Programação\\C#\\PressaoDiario\\obj\\",
+      "outputPath": "D:\\_Programação\\C#\\PressaoDiario\\PressaoDiario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6144,8 +6144,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\_Programação\\C#\\Data\\Data.csproj": {
-              "projectPath": "D:\\_Programação\\C#\\Data\\Data.csproj"
+            "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj": {
+              "projectPath": "D:\\_Programação\\C#\\PressaoDiario\\Data\\Data.csproj"
             }
           }
         }
