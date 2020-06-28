@@ -1,0 +1,8 @@
+D:\_Programação\C#\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\_Programação\C#\Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\_Programação\C#\Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\_Programação\C#\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\_Programação\C#\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\_Programação\C#\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\_Programação\C#\Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\_Programação\C#\Data\obj\Debug\netcoreapp3.1\Data.pdb

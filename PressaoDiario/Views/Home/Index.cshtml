@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Data.DTOs.Pressao>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="ml-lg-5">
+        <h1>Diário da Pressão</h1>
+        <a href="@Url.Action("Adicionar")">Adicionar</a>
+        <a>Enviar para o médico</a>
+        <div class="table-responsive table-striped table-hover">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">
+                            Data
+                        </th>
+                        <th scope="col">
+                            Pressão
+                        </th>
+                        <th scope="col">
+                            Batimento
+                        </th>
+                        <th scope="col">
+
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Data
+                            </td>
+                            <td>
+                                @item.Sistolica
+                                /
+                                @item.Diastolica
+                            </td>
+                            <td>
+                                @item.Batimentos
+                                <svg id="i-activity" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <path d="M4 16 L11 16 14 29 18 3 21 16 28 16" />
+                                </svg>
+                            </td>
+                            <td style="text-align: right; width: 125px !important">
+                                <a href="/Home/Excluir?id=@item.Id">Excluir</a> |
+                                <a href="/Home/Editar?id=@item.Id">Editar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

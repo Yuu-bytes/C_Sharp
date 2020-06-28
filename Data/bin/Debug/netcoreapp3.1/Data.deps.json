@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Data/1.0.0": {
+        "dependencies": {
+          "LiteDB": "5.0.8"
+        },
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
+      "LiteDB/5.0.8": {
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiteDB/5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lqwQnweoa3Lko87uo9FzZYf6BFh3AULas5yosG95LPVHIoACtJJ2BjBPQ7d7vUYDQYSV3rUco2+vMilVoBQ3WA==",
+      "path": "litedb/5.0.8",
+      "hashPath": "litedb.5.0.8.nupkg.sha512"
+    }
+  }
+}

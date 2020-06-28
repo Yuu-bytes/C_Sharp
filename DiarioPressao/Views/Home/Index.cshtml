@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<a href="@Url.Action("Adicionar")">Adicionar</a>
+<div class="table-responsive table-striped table-hover">
+    <table class="table" id="tabela">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">
+                    Data
+                </th>
+                <th scope="col">
+                    Pressão
+                </th>
+                <th scope="col">
+                    Batimento
+                </th>
+                <th scope="col">
+
+                </th>
+            </tr>
+        </thead>
+       <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="width: 5px;">
+                        @item.Data
+                    </td>
+                    <td style="width: 5px;">
+                        @item.Sistolica<br />
+                        @item.Diastolica
+                    </td>
+                    <td>
+                        @item.Batimentos
+                    </td>
+                    <td style="text-align: right; width: 130px !important">
+                        <a href="/Home/Excluir?id=@item.Id">Excluir</a> |
+                        <a href="/Home/Editar?id=@item.Id">Editar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</div>
