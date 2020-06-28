@@ -56,6 +56,7 @@ namespace Data
                 result.Sistolica = obj.Sistolica;
                 result.Diastolica = obj.Diastolica;
                 result.Batimentos = obj.Batimentos;
+                result.Periodo = obj.Periodo;
 
                 return entradaCollection.Update(result);
             }

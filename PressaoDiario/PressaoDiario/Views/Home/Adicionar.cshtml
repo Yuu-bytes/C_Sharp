@@ -19,10 +19,23 @@
             <div class="form-group col-3">
                 <input type="number" min="0" max="200" class="form-control" name="Diastolica" id="Diastolica" required />
             </div>
-            <div class="form-group col-3 ml-5">
+            
+        <div class="form-group col-2">
+            <div class="row">
+                <input type="radio" id="Manha" name="Periodo" value="1" checked />
+                <label for="Manha"><span class="material-icons">wb_sunny</span></label>
+            </div>
+            <div class="row">
+                <input type="radio" id="Noite" name="Periodo" value="2" />
+                <label for="Noite"><span class="material-icons">brightness_3</span></label><br />
+            </div>
+        </div>
+            
+            <div class="form-group col">
                 <input type="number" min="0" max="200" class="form-control" name="Batimentos" id="Batimentos" required />
             </div>
-            <svg id="i-activity" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="35" height="38" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+
+            <svg id="i-activity" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="30" height="38" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d="M4 16 L11 16 14 29 18 3 21 16 28 16" />
             </svg>
         </div>

@@ -54,7 +54,7 @@ namespace PressaoDiario.Controllers
 
         public IActionResult Index()
         {
-            var obj = new DBPressaoService().Listar().OrderByDescending(x => x.Data).ToList();
+            var obj = new DBPressaoService().Listar().OrderBy(x => x.Periodo).OrderByDescending(x => x.Data).ToList();
             return View(obj);
         }
 
