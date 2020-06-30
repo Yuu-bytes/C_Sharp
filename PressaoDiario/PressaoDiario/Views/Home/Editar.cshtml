@@ -9,6 +9,7 @@
 <form method="post" action="Editar">
     <div class="form mt-5">
         <input type="hidden" name="Id" value="@Model.Id" />
+        <input type="hidden" name="Visualizado" value="@Model.Visualizado" />
         <div class="row">
             <div class="form-group col">
                 <input type="text" placeholder="Data" class="form-control" name="Data" id="Data" required value="@Model.Data" />

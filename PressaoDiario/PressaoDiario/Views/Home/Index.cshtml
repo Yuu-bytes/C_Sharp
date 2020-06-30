@@ -28,6 +28,7 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
+                        if (item.Visualizado == false) { 
                         <tr>
                             <td>
                                 @item.Data
@@ -60,6 +61,7 @@
                                 <a href="/Home/Editar?id=@item.Id">Editar</a>
                             </td>
                         </tr>
+                        }
                     }
                 </tbody>
             </table>
