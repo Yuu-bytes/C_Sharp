@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Dados>
+
+@{
+    ViewData["Title"] = "Administrador";
+}
+
+<h1>Administrador</h1>
+
+<div class="table-responsive table-striped">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">
+                    Nome
+                </th>
+                <th scope="col">
+                    Email
+                </th>
+                <th scope="col">
+                    Animal
+                </th>
+                <th scope="col">
+                    Horario
+                </th>
+                <th scope="col">
+                    Informação
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Email
+                    /
+                    @item.Animal
+                </td>
+                <td>
+                    @item.DataHora
+
+                </td>
+                <td>
+                    @item.Consulta
+
+                </td>
+            </tr>
+                
+            }
+        </tbody>
+    </table>
+</div>

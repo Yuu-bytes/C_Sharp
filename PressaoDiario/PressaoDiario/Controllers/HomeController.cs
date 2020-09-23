@@ -6,6 +6,7 @@ using PressaoDiario.Models;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Mail;
 
 namespace PressaoDiario.Controllers
 {
@@ -50,6 +51,31 @@ namespace PressaoDiario.Controllers
         {
             new DBPressaoService().Alterar(entradas);
             return RedirectToAction("Index");
+        }
+
+        public ActionResult EnviarEmail()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ViewResult EnviarEmail(Data.DTOs.Email obj)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {// string nomeDestinatario, string emailDestinatario, string assunto, string texto
+                    Helper.EnviarEmail("Abacaxi", obj.Para, "Relatório", obj.Titulo);
+
+                } catch(Exception ex)
+                {
+
+                }
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return View();
+            }
         }
 
         public IActionResult Index()

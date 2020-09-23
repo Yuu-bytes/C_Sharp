@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<form action="Cadastro" method="post">
+    <input type="hidden" name="Admin" value="false" />
+    <div class="form-group">
+        <label for="Name">Digite seu NOME</label>
+        <input type="text" name="Name" id="Name" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Digite seu E-MAIL</label>
+        <input type="email" name="Email" id="Email" placeholder="exemplo@exemplo.com" required />
+    </div>
+    <div class="form-group">
+        <label for="Password">Digite sua SENHA</label>
+        <input type="password" name="Password" id="Password" required />
+    </div>
+    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+</form>

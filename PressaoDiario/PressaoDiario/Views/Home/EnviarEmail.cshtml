@@ -1,0 +1,22 @@
+﻿@model Data.DTOs.Email
+
+@{
+    ViewData["Title"] = "EnviarEmail";
+}
+
+    <div class="ml-lg-5">
+        <h1>Enviar Email</h1>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <div class="form-group">
+                <label for="Para">Para</label>
+                <input class="form-control" type="email" name="Para" id="Para" required/>
+            </div>
+            <div class="form-group">
+                <label for="Titulo">Título da mensagem</label>
+                <input class="form-control" type="text" name="Titulo" id="Titulo" required/>
+            </div>
+            <input type="submit" value="Enviar" class="btn btn-primary"/>
+        }
+        </div>

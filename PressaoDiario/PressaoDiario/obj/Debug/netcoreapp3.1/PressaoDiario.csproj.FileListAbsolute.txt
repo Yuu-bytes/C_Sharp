@@ -224,5 +224,9 @@ D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\staticw
 D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\PressaoDiario.dll
 D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\PressaoDiario.pdb
 D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\PressaoDiario.genruntimeconfig.cache
+D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\Razor\Views\Home\EnviarEmail.cshtml.g.cs
+D:\_Programação\C#\PressaoDiario\PressaoDiario\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\_Programação\C#\PressaoDiario\PressaoDiario\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\_Programação\C#\PressaoDiario\PressaoDiario\bin\Debug\netcoreapp3.1\MailKit.dll
 D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\PressaoDiario.csproj.CoreCompileInputs.cache
 D:\_Programação\C#\PressaoDiario\PressaoDiario\obj\Debug\netcoreapp3.1\PressaoDiario.MvcApplicationPartsAssemblyInfo.cache

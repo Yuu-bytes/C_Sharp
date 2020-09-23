@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Dados>
+
+@{
+    ViewData["Title"] = "Usuario";
+}
+
+<h1>Usuario</h1>
+
+@foreach (var item in Model)
+{
+    if (item.Email.Equals("teste@teste.com") && item.Password.Equals("teste"))
+    {
+        <form method="post" action="Consulta">
+            <div class="form-group">
+                <label for="Animal">Seu animal: </label>
+                <input type="text" value="@item.Animal" name="Animal" id="Animal" placeholder="Diga qual seu animal" required/>
+            </div>
+            <div class="form-group">
+                <label for="DataHora">Horario</label>
+                <input type="datetime" value="@item.DataHora" name="DataHora" id="DataHora"/>
+            </div>
+            <div class="form-group">
+                <label for="Consulta">Detalhes da consulta</label>
+                <input type="text" value="@item.Consulta" name="Consulta" id="Consulta" />
+            </div>
+            <input type="submit" value="Agendar Consulta" />
+        </form>
+    }
+}
