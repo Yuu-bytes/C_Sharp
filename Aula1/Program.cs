@@ -9,11 +9,17 @@ namespace Aula1
             ContaBancaria conta = new ContaBancaria();
             conta.Numero = 1;
             conta.Agencia = 2;
-            conta.Correntista = 3;
+            conta.CorrentistaConta = new Correntista(1, "Michael");
             Console.WriteLine(conta.Saldo);
             conta.Depositar(200);
             conta.Sacar(50);
-            Console.WriteLine(conta.Saldo);
+
+            ContaBancaria conta2 = new ContaBancaria();
+            conta2.CorrentistaConta = new Correntista(2, "João");
+            conta2.Numero = 222;
+            conta2.Depositar(1222);
+            Console.WriteLine(conta.VerSaldo());
+            Console.WriteLine(conta2.VerSaldo());
         }
     }
 }

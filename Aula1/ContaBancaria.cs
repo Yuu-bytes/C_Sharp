@@ -4,7 +4,7 @@
     {
         public int Numero { get; set; }
         public int Agencia { get; set; }
-        public int Correntista { get; set; }
+        public Correntista CorrentistaConta { get; set; }
         public double Saldo { get; private set; }
 
         public void Sacar(double valor)
@@ -16,9 +16,9 @@
             Saldo += valor;
         }
 
-        public double VerSaldo()
+        public string VerSaldo()
         {
-            return Saldo;
+            return $"O saldo da conta {Numero} do {CorrentistaConta.Nome} é R$ {Saldo}";
         }
 
     }
