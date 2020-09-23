@@ -11,7 +11,7 @@
         {
             Saldo -= valor;
         }
-        public void Depositar(double valor)
+        public virtual void Depositar(double valor)
         {
             Saldo += valor;
         }

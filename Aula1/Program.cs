@@ -20,6 +20,13 @@ namespace Aula1
             conta2.Depositar(1222);
             Console.WriteLine(conta.VerSaldo());
             Console.WriteLine(conta2.VerSaldo());
+
+            ContaInvestimento contaInvestimento = new ContaInvestimento();
+            contaInvestimento.Numero = 3;
+            contaInvestimento.CorrentistaConta = new Correntista(3, "Marcos");
+            contaInvestimento.Depositar(100);
+
+            Console.WriteLine(contaInvestimento.VerSaldo());
         }
     }
 }
